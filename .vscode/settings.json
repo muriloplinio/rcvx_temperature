@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "reg.h": "c",
+        "wifi.h": "c",
+        "fft.h": "c",
+        "core2foraws.h": "c",
+        "i2c_device.h": "c",
+        "aws_iot_shadow_interface.h": "c",
+        "aws_iot_mqtt_client_interface.h": "c",
+        "aws_iot_version.h": "c",
+        "aws_iot_log.h": "c",
+        "owb_rmt.h": "c",
+        "owb.h": "c",
+        "ds18b20.h": "c"
+    }
+}
