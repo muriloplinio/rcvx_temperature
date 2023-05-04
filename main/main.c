@@ -311,8 +311,8 @@ void ui_recuperacontexto()
         temps[i] = aux_rcx_pipas[i].temperature;
 	}
     numberFound = 5; 
-    falta guardar o contexto de sensores encontrado
-    transferir controle de botões em estado inicial de updatetemp para recupera contexto
+    // falta guardar o contexto de sensores encontrado
+    // transferir controle de botões em estado inicial de updatetemp para recupera contexto
     if (Relay1On){lv_btn_set_state(sw_Relay1, LV_BTN_STATE_CHECKED_PRESSED);} else {lv_btn_set_state(sw_Relay1, LV_BTN_STATE_RELEASED);};
     if (Relay2On){lv_btn_set_state(sw_Relay2, LV_BTN_STATE_CHECKED_PRESSED);} else {lv_btn_set_state(sw_Relay2, LV_BTN_STATE_RELEASED);};
     if (Relay3On){lv_btn_set_state(sw_Relay3, LV_BTN_STATE_CHECKED_PRESSED);} else {lv_btn_set_state(sw_Relay3, LV_BTN_STATE_RELEASED);};
